@@ -18,7 +18,15 @@
 git clone https://github.com/code-nailao/clean-devtools-skill.git ~/.codex/skills/clean-devtools
 ```
 
-安装后重启 Codex，让新 skill 生效。
+安装后不一定需要重启整个 Codex App。可以手动刷新技能列表：
+
+1. 按 `⌘K` 或 `⌘⇧P` 打开 Command Menu。
+2. 搜索 `Force Reload Skills`，中文界面里可以搜索“技能”或“重新加载”。
+3. 选择 `Force Reload Skills`。
+
+最稳妥的测试方式：刷新后开一个新对话，输入 `/clean-devtools`。
+
+如果你更新了这个 skill，也可以用同样的方法刷新，不需要重启 Codex App。
 
 ## 使用
 
@@ -53,3 +61,14 @@ bash scripts/clean-devtools.sh
 脚本只会匹配当前用户的进程。
 
 注意：执行清理会断开当前正在使用的 Chrome DevTools MCP 会话，但不会关闭 Chrome 浏览器本身。
+
+## 更新
+
+手动安装的用户可以进入 skill 目录拉取最新版本：
+
+```bash
+cd ~/.codex/skills/clean-devtools
+git pull
+```
+
+更新后执行 `Force Reload Skills`，再开一个新对话测试。

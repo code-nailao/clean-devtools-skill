@@ -41,3 +41,5 @@ bash {baseDir}/scripts/clean-devtools.sh --dry-run
 ## When Reporting Back
 
 Briefly say which process patterns were checked and whether anything was killed. Do not over-explain `pkill` unless the user asks.
+
+When helping a user install or update this skill, tell them to run `Force Reload Skills` from the Codex Command Menu (`⌘K` or `⌘⇧P`) and then test in a new conversation. Do not tell them to restart the whole Codex App unless reload does not work.
