@@ -18,6 +18,12 @@
 git clone https://github.com/code-nailao/clean-devtools-skill.git ~/.codex/skills/clean-devtools
 ```
 
+也可以用 `skills` CLI 安装：
+
+```bash
+npx skills add code-nailao/clean-devtools-skill
+```
+
 安装后不一定需要重启整个 Codex App。可以手动刷新技能列表：
 
 1. 按 `⌘K` 或 `⌘⇧P` 打开 Command Menu。
