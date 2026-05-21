@@ -26,8 +26,6 @@ git clone https://github.com/code-nailao/clean-devtools-skill.git ~/.codex/skill
 
 最稳妥的测试方式：刷新后开一个新对话，输入 `/clean-devtools`。
 
-如果你更新了这个 skill，也可以用同样的方法刷新，不需要重启 Codex App。
-
 ## 使用
 
 在 Codex 里输入：
@@ -61,14 +59,3 @@ bash scripts/clean-devtools.sh
 脚本只会匹配当前用户的进程。
 
 注意：执行清理会断开当前正在使用的 Chrome DevTools MCP 会话，但不会关闭 Chrome 浏览器本身。
-
-## 更新
-
-手动安装的用户可以进入 skill 目录拉取最新版本：
-
-```bash
-cd ~/.codex/skills/clean-devtools
-git pull
-```
-
-更新后执行 `Force Reload Skills`，再开一个新对话测试。
